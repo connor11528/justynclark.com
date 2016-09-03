@@ -4256,6 +4256,33 @@ to display none.
 body {
   background-image: url("../images/noise.png"); }
 
+footer p {
+  margin: 0;
+  text-align: center;
+  font-family: 'merriweather_lightregular';
+  font-size: 15px;
+  line-height: 8px; }
+
+footer li.social-footer {
+  float: left;
+  padding-right: 10px;
+  list-style: none; }
+
+footer li.social-footer i {
+  color: grey;
+  font-size: 32px; }
+
+footer li.social-footer > a:after {
+  display: none; }
+
+div.social-footer-wrap {
+  display: table;
+  margin: 0 auto; }
+
+ul.social-footer {
+  display: inline;
+  margin: 0; }
+
 .nav-logo span {
   color: white; }
 
