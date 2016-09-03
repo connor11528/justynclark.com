@@ -38,18 +38,17 @@
 		
 	<body <?php body_class(); ?>>
 
-		<div class="off-canvas-wrapper">
-			
-			<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-				
-				<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
-				
-				<div class="off-canvas-content" data-off-canvas-content>
-					
-					<header class="header" role="banner">
-							
-						 <!-- This navs will be applied to the topbar, above all content 
-							  To see additional nav styles, visit the /parts directory -->
-						 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-		 	
-					</header> <!-- end .header -->
+	<div id="nav-wrapper">
+		<section id="nav" class="container large-12 columns">
+			<a href="/"><div class="nav-logo x down" data-size="big"><span>JC</span></div></a>
+			<nav>
+				<ul>
+					<li><a href="portfolio">Portfolio</a></li>
+					<li><a href="resume">About</a></li>
+					<li><a href="blog">Blog</a></li>
+					<li><a href="contact">Contact</a></li>
+				</ul>
+				<a class="navicon-button x down" data-size="big"><div class="navicon"></div></a>
+			</nav>
+		</section>
+	</div>
