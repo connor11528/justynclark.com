@@ -1,10 +1,11 @@
 <?php get_header(); ?>
+
 			
 	<div id="content">
-	
+
 		<div id="inner-content" class="row">
-	
-		    <main id="main" class="large-8 medium-8 columns" role="main">
+			<?php get_sidebar('blog'); ?>
+		    <main id="main" class="small-12 large-8 columns" role="main">
 		    
 			    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			 
@@ -23,7 +24,7 @@
 																								
 		    </main> <!-- end #main -->
 		    
-		    <?php get_sidebar(); ?>
+
 
 		</div> <!-- end #inner-content -->
 
