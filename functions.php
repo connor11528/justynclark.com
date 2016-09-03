@@ -1,4 +1,5 @@
 <?php
+register_new_royalslider_files(3);
 // Theme support options
 require_once(get_template_directory().'/assets/functions/theme-support.php'); 
 
