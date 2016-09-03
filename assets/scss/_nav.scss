@@ -133,7 +133,7 @@
   cursor: pointer;
   outline: 0;
   font-size: 1.5em;
-  padding: 18px 25px;
+  line-height: 61px;
   display: inline-block;
   position: relative;
   opacity: .8;
@@ -143,10 +143,8 @@
   margin: -10px 0 0 0;
   width: 72px;
   height: 61px;
-  -webkit-transition: .16667s;
-  -moz-transition: .16667s;
-  -o-transition: .16667s;
-  transition: .16667s
+  transition: .16667s;
+  text-align: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -154,7 +152,7 @@
     width:62px;
     height: 43px;
     margin: -10px 0 0 0;
-    padding: 9px 20px
+    line-height: 43px;
   }
 }
 
@@ -204,7 +202,7 @@
   float: right;
   z-index: 1001;
   background: #222;
-  margin: -10px 20px 0 0
+  margin: -10px 0 0 0
 }
 
 .navicon-button.up {
