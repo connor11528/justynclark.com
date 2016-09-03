@@ -27,6 +27,8 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+
 		<?php wp_head(); ?>
 
 		<!-- Drop Google Analytics here -->

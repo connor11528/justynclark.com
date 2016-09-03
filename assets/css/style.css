@@ -4256,6 +4256,17 @@ to display none.
 body {
   background-image: url("../images/noise.png"); }
 
+#content #inner-content {
+  padding-top: 6rem; }
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0; }
+
 footer p {
   margin: 0;
   text-align: center;
@@ -4282,6 +4293,54 @@ div.social-footer-wrap {
 ul.social-footer {
   display: inline;
   margin: 0; }
+
+.home-title {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem; }
+
+.heading {
+  margin: 120px 0 50px 0;
+  text-align: center; }
+
+.heading:after {
+  z-index: -1;
+  content: "";
+  display: block;
+  position: absolute; }
+
+.heading span:first-child {
+  margin-left: -3px;
+  margin-bottom: 5px; }
+
+.subtitle {
+  display: block;
+  font: 14px/18px ff-tisa-web-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: none; }
+
+.intro-text .subtitle {
+  display: block;
+  font: 13px/21px ff-tisa-web-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: none; }
+
+.heading:after {
+  height: 1px;
+  width: 400px;
+  top: 310px;
+  left: 50%;
+  margin-left: -210px;
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #ccc;
+  transform: rotate(30deg);
+  transform-origin: center center;
+  z-index: -1;
+  opacity: 0.7; }
 
 .nav-logo span {
   color: white; }
