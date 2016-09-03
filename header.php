@@ -27,6 +27,7 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+		<link rel="stylesheet" id="google-font-Raleway-css" href="http://fonts.googleapis.com/css?family=Raleway%3A600%2C400%2C200" type="text/css" media="all">
 		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
 
 		<?php wp_head(); ?>
