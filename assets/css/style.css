@@ -1646,10 +1646,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "merriweather_lightregular", Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
   font-style: normal;
-  color: inherit;
+  color: #222;
   text-rendering: optimizeLegibility;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -1696,12 +1696,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #2199e8;
+  color: #a62929;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1585cf; }
+    color: #8f2323; }
   a img {
     border: 0; }
 
@@ -2666,7 +2666,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #2199e8 transparent transparent;
+  border-color: #a62929 transparent transparent;
   border-top-style: solid;
   border-bottom-width: 0;
   right: 5px;
@@ -2699,7 +2699,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #2199e8 transparent transparent;
+  border-color: transparent #a62929 transparent transparent;
   border-right-style: solid;
   border-left-width: 0; }
 
@@ -2709,7 +2709,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #2199e8;
+  border-color: transparent transparent transparent #a62929;
   border-left-style: solid;
   border-right-width: 0; }
 
@@ -2731,7 +2731,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #2199e8 transparent transparent;
+    border-color: #a62929 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2753,7 +2753,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #2199e8 transparent transparent;
+    border-color: transparent #a62929 transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.medium-vertical > li.opens-right > a::after {
@@ -2762,7 +2762,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent #a62929;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -2784,7 +2784,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #2199e8 transparent transparent;
+    border-color: #a62929 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2806,7 +2806,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #2199e8 transparent transparent;
+    border-color: transparent #a62929 transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.large-vertical > li.opens-right > a::after {
@@ -2815,7 +2815,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent #a62929;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -2860,7 +2860,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #2199e8 transparent transparent;
+    border-color: transparent #a62929 transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
@@ -2869,7 +2869,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent #a62929;
     border-left-style: solid;
     border-right-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu {
@@ -4259,6 +4259,9 @@ body {
 #content #inner-content {
   padding-top: 6rem; }
 
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase; }
+
 footer {
   position: absolute;
   bottom: 5px;
@@ -4441,7 +4444,7 @@ ul.social-footer {
   cursor: pointer;
   outline: 0;
   font-size: 1.5em;
-  padding: 18px 25px;
+  line-height: 61px;
   display: inline-block;
   position: relative;
   opacity: .8;
@@ -4451,14 +4454,15 @@ ul.social-footer {
   margin: -10px 0 0 0;
   width: 72px;
   height: 61px;
-  transition: .16667s; }
+  transition: .16667s;
+  text-align: center; }
 
 @media screen and (max-width: 480px) {
   .nav-logo {
     width: 62px;
     height: 43px;
     margin: -10px 0 0 0;
-    padding: 9px 20px; } }
+    line-height: 43px; } }
 
 .nav-logo.up {
   margin-top: -100px; }
@@ -4496,7 +4500,7 @@ ul.social-footer {
   float: right;
   z-index: 1001;
   background: #222;
-  margin: -10px 20px 0 0; }
+  margin: -10px 0 0 0; }
 
 .navicon-button.up {
   margin-top: -100px; }
