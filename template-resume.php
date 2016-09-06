@@ -2,12 +2,12 @@
 /*
 Template Name: RESUME
 */
-get_header('resume'); ?>
+get_header(); ?>
 <!-- Start the main container -->
 <div class="container" role="document">
   <div class="row">
     <!-- Row for main content area -->
-    <div class="small-12 large-12 columns" role="main">
+    <div class="small-12 large-12 columns resume" role="main">
       <h1 class="heading">
       <span>Justyn Clark</span>
       <span class="subtitle">justyn@justynclark.com &#8226; 818.613.0856</span>
