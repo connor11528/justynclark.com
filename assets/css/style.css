@@ -4339,7 +4339,7 @@ ul.social-footer {
 .heading:after {
   height: 1px;
   width: 400px;
-  top: 310px;
+  top: 270px;
   left: 50%;
   margin-left: -210px;
   content: "";
@@ -4350,6 +4350,9 @@ ul.social-footer {
   transform-origin: center center;
   z-index: -1;
   opacity: 0.7; }
+
+.resume {
+  padding: 4.125rem; }
 
 .resume .row {
   max-width: 66.8rem; }
@@ -4371,7 +4374,7 @@ ul.social-footer {
   float: left;
   margin-right: 11px;
   padding-bottom: 81px;
-  padding-top: 21px; }
+  padding-top: 16px; }
 
 .heading span:first-child {
   margin-left: -3px;
@@ -4408,6 +4411,99 @@ ul.social-footer {
     margin-left: 0; }
   .resX {
     display: none; } }
+
+#new-royalslider-3, #new-royalslider-4 {
+  position: absolute;
+  left: 0 !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  height: auto !important;
+  width: auto !important;
+  z-index: 1; }
+
+.rsHomeTempl .rsTmb {
+  text-align: center !important;
+  margin-top: 13px !important;
+  font-weight: 300 !important;
+  font-family: 'Raleway',sans-serif; }
+
+.black-box {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 35px; }
+
+.white-box {
+  background-color: rgba(255, 255, 255, 0.83);
+  padding: 35px; }
+
+#cbpw-grid6 .cbp-caption-activeWrap {
+  background-color: rgba(255, 255, 255, 0.91) !important;
+  transition: all 333ms ease-in-out; }
+
+#cbpw-grid2 .cbp-caption-activeWrap {
+  background-color: rgba(255, 255, 255, 0.83) !important; }
+
+#cbpw-grid2 .cbp-l-caption-title {
+  color: #222 !important; }
+
+#cbpw-grid2 .cbp-l-caption-desc {
+  color: rgba(34, 34, 34, 0.9) !important; }
+
+#cbpw-grid6 .cbp-l-caption-buttonLeft {
+  color: #000 !important;
+  background-color: transparent !important;
+  font-size: 12px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  padding: 0;
+  border: 2px solid #000;
+  margin: 4px 4px 4px 4px;
+  border-radius: 4px; }
+
+#cbpw-grid6 .cbp-l-caption-buttonRight {
+  color: #000 !important;
+  background-color: transparent !important;
+  font-size: 12px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  padding: 0;
+  border: 2px solid #000;
+  margin: 4px 4px 4px 4px;
+  border-radius: 4px; }
+
+#cbpw-filters2 .cbp-filter-counter:before {
+  border-color: #9d9d9d transparent !important; }
+
+#cbpw-filters2 .cbp-filter-counter {
+  background-color: #9d9d9d !important; }
+
+.top-bar-section > ul > .divider {
+  border: 0; }
+
+.circle-img {
+  border-radius: 90%; }
+
+#new-royalslider-3, #new-royalslider-4 {
+  position: absolute;
+  left: 0 !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  height: auto !important;
+  width: auto !important;
+  z-index: 1; }
+
+.rsHomeTempl .rsTmb {
+  text-align: center !important;
+  margin-top: 13px !important;
+  font-weight: 300 !important;
+  font-family: 'Raleway',sans-serif; }
 
 .nav-logo span {
   color: white; }
