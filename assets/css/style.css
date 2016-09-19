@@ -4343,7 +4343,7 @@ ul.social-footer {
 
 .subtitle {
   display: block;
-  font: 14px/18px ff-tisa-web-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  font: 15px/18px ff-tisa-web-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-shadow: none; }
@@ -4357,10 +4357,10 @@ ul.social-footer {
 
 .heading:after {
   height: 1px;
-  width: 400px;
-  top: 270px;
+  width: 330px;
+  top: 167px;
   left: 50%;
-  margin-left: -210px;
+  margin-left: -173px;
   content: "";
   display: block;
   position: absolute;
@@ -4424,6 +4424,14 @@ ul.social-footer {
 
 .position {
   margin-bottom: 40px; }
+
+@media only screen and (max-width: 640px) {
+  .resume {
+    padding-top: 0;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+  .heading:after {
+    display: none; } }
 
 @media only screen and (max-width: 1025px) {
   .resume .position .subtitle {

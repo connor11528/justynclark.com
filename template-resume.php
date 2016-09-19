@@ -10,7 +10,7 @@ get_header(); ?>
     <div class="small-12 large-12 columns resume" role="main">
       <h1 class="heading">
       <span>Justyn Clark</span>
-      <span class="subtitle">justyn@justynclark.com &#8226; 818.613.0856</span>
+      <span class="subtitle">justyn@justynclark.com</span>
       <span class="subtitle">Los Angeles, CA</span>
       </h1>
       <section class="row">
@@ -31,50 +31,43 @@ get_header(); ?>
             <div class="small-12 large-5 columns alpha">
               <h4>Professional Skillsets</h4>
                 <ul>
-                  <li>HTML5 / CSS3 / JavaScript & jQuery</li>
-                  <li>Sass & Less CSS preprocessors</li>
-                  <li>Component Oriented Programming</li>
-                  <li>Object Oriented Programming (OOP)</li>
-                  <li>Foundation 6 & Bootstrap 4</li>
-                  <li>WordPress Theme Development / PHP</li>
-                  <li>Magento</li>
-                  <li>Ajax / JSON</li>
-                  <li>UI / UX</li>
+                  <li>W3C Validated HTML5, CSS3</li>
+                  <li>JavaScript, jQuery </li>
+                  <li>Sass, Less Preprocessors</li>
+                  <li>Foundation 6, Bootstrap 4</li>
+                  <li>PHP, WordPress Theme Development</li>
+                  <li>Ajax, JSON</li>
+                  <li>UI, UX</li>
+                  <li>AWS</li>
                 </ul>
             </div>
           <div class="small-12 large-4 columns working-knowledge">
               <h4>Tools</h4>
                 <ul>
-                  <li>Chrome DevTools / Firefox Developer Edition</li>
-                  <li>PhpStorm & Atom 1.0</li>
-                  <li>Terminal</li>
-                  <li>Grunt / Gulp</li>
-                  <li>npm / Bower / Composer</li>
-                  <li>Karma & Jasmine</li>
-                  <li>Webpack / Babel / Browserify</li>
-                  <li>Emmet & CoffeeScript</li>
-                  <li>SVN / Git & GitHub</li>
+                  <li>PhpStorm (IDE)</li>
+                  <li>Command Line</li>
+                  <li>Vagrant</li>
+                  <li>MEAN stack</li>
+                  <li>Git, GitHub, Bitbucket, SVN</li>
+                  <li>npm, Bower, Composer</li>
+                  <li>Chrome DevTools</li>
+                  <li>Grunt, Gulp</li>
+                  <li>Karma, Jasmine</li>
+                  <li>Webpack, Babel, Browserify</li>
+                  <li>Emmet, CoffeeScript</li>
                   <li>Yeti Launch</li>
                   <li>Cocoa JSON Editor</li>
-                  <li>FileZila FTP</li>
                   <li>Adobe Creative Suite</li>
-                  <li>Final Cut Pro X</li>
-                  <li>Logic Pro X</li>
-                  <li>Google Apps</li>
-                  <li>Google Analytics</li>
                 </ul>
             </div>
           <div class="small-12 large-3 columns omega">
               <h4>FRAMEWORKS & LIBRARIES</h4>
                 <ul>
-                  <li>Angular.js 1 & 2</li>
-                  <li>React.js</li>
-                  <li>Vue.js</li>
-                  <li>Meteor.js</li>
-                  <li>Ember.js</li>
-                  <li>Backbone.js</li>
-                  <li>Ruby on Rails</li>
-                  <li>Python</li>
+                  <li>Angular</li>
+                  <li>React</li>
+                  <li>Meteor</li>
+                  <li>Vue</li>
+                  <li>Backbone</li>
                 </ul>
           </div>
         </div>
@@ -86,10 +79,14 @@ get_header(); ?>
       </div>
       <div class="small-12 large-9 columns border">
         <div class="position">
-          <h4>Regent Equity Partners <span class="subtitle">FRONT END DEVELOPER | 2016</span></h4>
-          <p>Regent Companies (www.regent.co) is a global investment firm focused on acquiring and managing businesses across multiple industries and international markets.</p>
+          <h4>REGENT EQUITY COMPANIES, LLC <span class="subtitle">FRONT END DEVELOPER | 2016</span></h4>
+          <p>Regent Companies is a global investment firm focused on acquiring and managing businesses across multiple industries and international markets.</p>
+          <p>Collaborated with project, marketing, SEO managers and designers using JIRA, Confluence, BitBucket
+            agile tools to maintain and develop websites for various Regent portfolio websites. I subscribed to modern
+            workflows that include AWS, Vagrant, WordPress and Magento 2.1 development environments and
+            frameworks using task automation via grunt with Sass and Less preprocessors.</p>
+          <b>Companies in the portfolio:</b>
           <ul>
-            <li>Companies in the portfolio:</li>
             <li>Lillian Vernon</li>
             <li>Current Catalog</li>
             <li>HistoryNet</li>
@@ -97,11 +94,7 @@ get_header(); ?>
             <li>Fine Stationery</li>
             <li>pingg</li>
           </ul>
-          <p>Overall responsibility for converting digital readers into subscribers, launching new e-commerce platform that increased monthly sales 305%, and tuning a subsequent 52% CR increase</p>
-            <p> Owner of content and content marketing strategies, identifying and filling gaps in SEO acquisition</p>
-            <p> Effected, with Ad Director, programmatic web ad revenue increase of 108% in one month</p>
-            <p> Steering digital product for a team of 12 across all web and digital platforms</p>
-            <p> Establishing KPIs across the portfolio with reach of 10,000,000 and implementing product and marketing financial and web data reporting and analysis</p>
+
         </div>
         <div class="position">
           <h4>Lenmar Enterprises, Inc <span class="subtitle">FRONT END DEVELOPER | 2015</span></h4>
