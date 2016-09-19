@@ -281,66 +281,6 @@ ul.social-footer {
 }
 
 
-#cbpw-grid6 .cbp-caption-activeWrap {
-  background-color: rgba(255,255,255,0.91)!important;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out
-}
-
-#cbpw-grid2 .cbp-caption-activeWrap {
-  background-color: rgba(255,255,255,0.83)!important
-}
-
-#cbpw-grid2 .cbp-l-caption-title {
-  color: #222!important
-}
-
-#cbpw-grid2 .cbp-l-caption-desc {
-  color: rgba(34,34,34,0.9)!important
-}
-
-#cbpw-grid6 .cbp-l-caption-buttonLeft {
-  color: #000!important;
-  background-color: transparent!important;
-  font-size: 12px;
-  font-family: Open Sans;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 28px;
-  text-align: center;
-  padding: 0;
-  border: 2px solid #000;
-  margin: 4px 4px 4px 4px;
-  border-radius: 4px
-}
-
-#cbpw-grid6 .cbp-l-caption-buttonRight {
-  color: #000!important;
-  background-color: transparent!important;
-  font-size: 12px;
-  font-family: Open Sans;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 28px;
-  text-align: center;
-  padding: 0;
-  border: 2px solid #000;
-  margin: 4px 4px 4px 4px;
-  border-radius: 4px
-}
-
-#cbpw-filters2 .cbp-filter-counter:before {
-  border-color: #9d9d9d transparent!important
-}
-
-#cbpw-filters2 .cbp-filter-counter {
-  background-color: #9d9d9d!important
-}
-
-.top-bar-section>ul>.divider {
-  border: 0
-}
-
 .circle-img {
   border-radius: 90%
 }
@@ -396,6 +336,19 @@ ul.social-footer {
   font-weight: 200
 }
 
+video#bgvid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url() no-repeat;
+  background-size: cover
+}
+
 @media only screen and (max-width: 40.063em) {
   .video-block {
     width:auto!important;
@@ -404,6 +357,44 @@ ul.social-footer {
 
   #new-royalslider-4 h1 {
     font-size: 2.125rem!important
+  }
+}
+
+// PORTFOLIO WEBSITES
+
+.website-example {
+  margin-bottom: 60px!important
+}
+
+.website-example img {
+  border: .1em solid rgba(0,0,0,0.13);
+  margin-top: 50px;
+  -webkit-box-shadow: 0 28px 32px -15px rgba(0,0,0,0.34);
+  -moz-box-shadow: 0 28px 32px -15px rgba(0,0,0,0.34);
+  box-shadow: 0 28px 32px -15px rgba(0,0,0,0.34);
+  position: relative;
+  bottom: 0;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out
+}
+
+.website-example img:hover {
+  bottom: 3px;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out
+}
+
+@-webkit-keyframes fontbulger {
+  0%,100% {
+    font-size: 24px
+  }
+
+  50% {
+    font-size: 36px
   }
 }
 
