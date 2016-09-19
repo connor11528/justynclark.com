@@ -355,17 +355,6 @@ ul.social-footer {
   margin: 0
 }
 
-#new-royalslider-3,#new-royalslider-4 {
-  position: absolute;
-  left: 0!important;
-  top: 0!important;
-  right: 0!important;
-  bottom: 0!important;
-  height: auto!important;
-  width: auto!important;
-  z-index: 1
-}
-
 #new-royalslider-4 h1 {
   font-size: 4.75rem;
   color: #fff
@@ -384,6 +373,239 @@ ul.social-footer {
 
   #new-royalslider-4 h1 {
     font-size: 2.125rem!important
+  }
+}
+
+// BLOG PAGE
+
+.post h2 a, .cover a {
+  color: inherit;
+}
+
+.blog-content {
+  padding: 4.125rem;
+  padding-top: 7em;
+}
+
+.cover-story {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 1px solid #999;
+  border-bottom: 0;
+}
+
+.cover-story .cover {
+  height: 100%
+}
+
+.cover-story .cover .cover-image {
+  height: 100%
+}
+
+.cover-home {
+  height: 20em
+}
+
+.cover-home .cover-content {
+  position: absolute;
+  bottom: 0;
+  padding: 50px 10% 7%;
+  width: 100%
+}
+
+.cover-home .cover-content .cover-title {
+  color: #fff;
+  font-size: 1.75em;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.5);
+  line-height: 1.2;
+  font-size: 1.5em
+}
+
+.cover-home .cover-content p {
+  font-size: .9375em;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+  margin-bottom: 1em;
+  line-height: 1.5
+}
+
+.cover-home .cover-content p a {
+  color: #fff;
+  text-decoration: underline
+}
+
+.cover-home .cover-content p a:hover,.cover-home .cover-content p a:focus {
+  color: #ccc
+}
+
+.cover-home .cover-content .side-nav {
+  font-size: .9375em;
+  padding: 0
+}
+
+.cover-home .cover-content .side-nav.divider {
+  opacity: .2
+}
+
+.cover-home .cover-content .cover-read a {
+  color: #1abc9c
+}
+
+.cover-home .cover-content .cover-read a:hover,.cover-home .cover-content .cover-read a:focus {
+  color: #148f77
+}
+
+.cover-author {
+  overflow: hidden;
+  border-bottom: 1px solid grey
+}
+
+.cover-author .cover-table {
+  display: table;
+  height: 100%;
+  width: 100.2%
+}
+
+.cover-author .cover-table .cover-row {
+  display: table-row
+}
+
+.cover-author .cover-table .cover-row .cover-image {
+  display: table-cell;
+  position: relative;
+  background-image: url("../images/jc-blog.jpg");
+  background-size: cover;
+  height: 100%
+}
+
+.cover-author .cover-table .cover-row .cover-content {
+  display: table-cell;
+  background: #fcfcfc;
+  position: relative;
+  text-align: center;
+  padding: 45px 10% 10%;
+  width: 100%
+}
+
+.cover-author .cover-table .cover-row .cover-content .cover-content-inner {
+  position: relative
+}
+
+.cover-author .cover-table .cover-row .cover-content .cover-description {
+  font-size: .875em;
+  margin-bottom: 1em
+}
+
+.cover-author .cover-table .cover-row .cover-content ul {
+  margin-bottom: 0;
+  font-size: .875em;
+  text-align: center
+}
+
+.cover-author .cover-table .cover-row .cover-content ul li {
+  display: inline-block;
+  float: none
+}
+
+.cover-author .cover-table .cover-row .cover-avatar {
+  position: absolute;
+  top: -5.9375em;
+  left: 50%;
+  height: 5.9375em;
+  width: 5.9375em;
+  margin-left: -51px;
+  border: 3px solid #fff;
+  background-color: #fff;
+  overflow: hidden;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%
+}
+
+.cover .cover-image {
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.cover-post {
+  padding-bottom: 0;
+  margin-bottom: .625em
+}
+
+.cover-post .cover {
+  position: relative;
+  margin: -1.25em -1.25em 0 -1.25em
+}
+
+.cover-post .cover .cover-image {
+  height: 200px!important
+}
+
+.cover-post .cover .cover-post-meta {
+  position: absolute;
+  bottom: .625em;
+  left: 1.25em;
+  padding-right: 1.25em
+}
+
+.cover-post .cover .cover-post-meta h4 {
+  font-size: 1em;
+  line-height: 1.2;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.5);
+  margin-bottom: 0;
+  color: #fff
+}
+
+.cover-post .cover .cover-post-meta .entry-time {
+  font-size: .8125em;
+  font-weight: 200;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.5)
+}
+
+.cover-post .cover .cover-post-comment-count {
+  padding: 2px 8px;
+  font-size: .6875em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #fff
+}
+
+.cover-post .cover-post-comment {
+  display: table
+}
+
+.cover-post .cover-post-comment .comment-table {
+  display: table-cell;
+  vertical-align: middle
+}
+
+.cover-post .cover-post-comment .comment-avatar {
+  width: 2.5em
+}
+
+.cover-post .cover-post-comment p.comment-table {
+  font-size: .8125em;
+  line-height: 1.4;
+  color: #7f8c8d;
+  padding: 1.25em 0;
+  display: table-cell;
+  vertical-align: middle;
+  word-break: break-all
+}
+
+.cover-post .cover-post-comment p.comment-table a {
+  color: #333332
+}
+
+.author-role {
+  font-size: 22px
+}
+
+@media only screen and (max-width: 1023px) {
+  .cover-story {
+    display: none;
   }
 }
 

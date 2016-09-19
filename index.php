@@ -3,9 +3,9 @@
 			
 	<div id="content">
 
-		<div id="inner-content" class="row">
+		<div id="inner-content">
 			<?php get_sidebar('blog'); ?>
-		    <main id="main" class="small-12 large-8 columns" role="main">
+		    <main id="main" class="small-12 large-8 columns blog-content" role="main">
 		    
 			    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			 
@@ -21,7 +21,7 @@
 					<?php get_template_part( 'parts/content', 'missing' ); ?>
 						
 				<?php endif; ?>
-																								
+				<?php get_footer(); ?>
 		    </main> <!-- end #main -->
 		    
 
@@ -30,4 +30,3 @@
 
 	</div> <!-- end #content -->
 
-<?php get_footer(); ?>
