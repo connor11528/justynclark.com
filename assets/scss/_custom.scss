@@ -3,7 +3,7 @@ body {
 }
 
 #content #inner-content {
-  padding-top: 6rem;
+  padding-top: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,7 +22,17 @@ p {
 
 @media only screen and (max-width: 480px) {
   #content #inner-content {
-    padding-top: 0;
+    padding-top: 5 !important;
+  }
+  .blog #inner-content {
+    padding-top: 5rem !important;
+  }
+  .page header {
+     margin-bottom: 0 !important;
+     margin-top: 0 !important;
+  }
+  .single #content {
+    padding-top: 0!important;
   }
 }
 
@@ -618,7 +628,7 @@ ul.social-footer {
   .blog-content {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
-    padding-top: 0;
+    //padding-top: 0;
   }
 }
 
