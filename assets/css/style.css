@@ -4548,6 +4548,9 @@ ul.social-footer {
   #new-royalslider-4 h1 {
     font-size: 2.125rem !important; } }
 
+.entry-content img {
+  margin-bottom: 1rem; }
+
 .post h2 a, .cover a {
   color: inherit; }
 
