@@ -4262,6 +4262,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase; }
 
+p {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility; }
+
 footer.full-width {
   background-color: transparent;
   border: 0;
@@ -4430,7 +4438,8 @@ ul.social-footer {
 
 .black-box {
   background-color: rgba(0, 0, 0, 0.55);
-  padding: 35px; }
+  padding: 35px h1;
+    padding-color: white; }
 
 .white-box {
   background-color: rgba(255, 255, 255, 0.83);
