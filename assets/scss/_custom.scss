@@ -237,7 +237,7 @@ ul.social-footer {
 
 .black-box {
   background-color: rgba(0,0,0,0.55);
-  padding: 35px
+  padding: 35px;
 
   h1 {
     color: white
@@ -314,6 +314,47 @@ ul.social-footer {
   border-radius: 90%
 }
 
+.rsHomeTempl .rsTmb {
+  text-align: center!important;
+  margin-top: 13px!important;
+  font-weight: 300!important;
+  font-family: 'Raleway',sans-serif
+}
+
+.rsVideoContainer.rsIOSVideo iframe,.rsVideoContainer.rsIOSVideo video,.rsVideoContainer.rsIOSVideo embed {
+  -webkit-box-sizing: border-box!important;
+  -moz-box-sizing: border-box!important;
+  box-sizing: border-box!important;
+  padding-right: 44px!important
+}
+
+#sldbt {
+  background-color: transparent;
+  color: #fff;
+  border: 2px #fff solid;
+  border-radius: 5px;
+  padding: 15px 50px 15px 50px;
+  margin: 0
+}
+
+#sldbt-blk {
+  background-color: transparent;
+  color: #333;
+  border: 2px #333 solid;
+  border-radius: 5px;
+  padding: 15px 50px 15px 50px;
+  margin: 0
+}
+
+#sldbt-blk-2 {
+  background-color: transparent;
+  color: #333;
+  border: 2px #333 solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  margin: 0
+}
+
 #new-royalslider-3,#new-royalslider-4 {
   position: absolute;
   left: 0!important;
@@ -325,10 +366,24 @@ ul.social-footer {
   z-index: 1
 }
 
-.rsHomeTempl .rsTmb {
-  text-align: center!important;
-  margin-top: 13px!important;
-  font-weight: 300!important;
-  font-family: 'Raleway',sans-serif
+#new-royalslider-4 h1 {
+  font-size: 4.75rem;
+  color: #fff
+}
+
+#new-royalslider-4 h2 {
+  color: #fff;
+  font-weight: 200
+}
+
+@media only screen and (max-width: 40.063em) {
+  .video-block {
+    width:auto!important;
+    right: 15px!important
+  }
+
+  #new-royalslider-4 h1 {
+    font-size: 2.125rem!important
+  }
 }
 
