@@ -4371,7 +4371,8 @@ ul.social-footer {
   opacity: 0.7; }
 
 .resume {
-  padding: 4.125rem; }
+  padding: 4.125rem;
+  padding-top: 0; }
 
 .resume .row {
   max-width: 66.8rem; }
