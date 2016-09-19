@@ -4270,6 +4270,10 @@ p {
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
 
+@media only screen and (max-width: 480px) {
+  #content #inner-content {
+    padding-top: 0; } }
+
 footer.full-width {
   background-color: transparent;
   border: 0;
