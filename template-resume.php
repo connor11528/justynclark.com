@@ -142,7 +142,7 @@ get_header(); ?>
       <div class="small-12 large-3 columns">
         <span class="resX">+</span><h2>Education</h2>
       </div>
-      <div class="small-12 large-9 columns border">
+      <div class="small-12 large-9 columns">
         <div class="position">
           <h4>CAL STATE NORTHRIDGE<span class="subtitle">B.A. - Multimedia Production & Cinema and Television Arts Major- 2008</span></h4>
           <p>Immersed in the broad studies of digital media trends and technologies in new media, television and film.</p>
