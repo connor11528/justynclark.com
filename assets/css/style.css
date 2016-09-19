@@ -4800,7 +4800,7 @@ ul.social-footer {
 
 @media screen and (max-width: 630px) {
   #nav ul {
-    margin-left: -114px; } }
+    margin-left: -175px; } }
 
 @media screen and (max-width: 480px) {
   #nav ul {
@@ -4812,7 +4812,7 @@ ul.social-footer {
 #nav li {
   display: none;
   opacity: 0;
-  margin-right: 80px;
+  margin-right: 75px;
   transition: opacity .3s ease-out; }
 
 @media screen and (max-width: 630px) {
