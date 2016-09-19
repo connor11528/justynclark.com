@@ -603,6 +603,14 @@ ul.social-footer {
   font-size: 22px
 }
 
+@media only screen and (max-width: 640px) {
+  .blog-content {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    padding-top: 0;
+  }
+}
+
 @media only screen and (max-width: 1023px) {
   .cover-story {
     display: none;
