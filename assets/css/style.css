@@ -4359,7 +4359,7 @@ ul.social-footer {
   text-transform: uppercase;
   text-shadow: none; }
 
-.heading:after {
+.home .heading:after {
   height: 1px;
   width: 460px;
   top: 273px;
@@ -4415,7 +4415,7 @@ ul.social-footer {
 
 .subtitle {
   display: block;
-  font: 10px/18px ff-tisa-web-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  font: 11px/18px ff-tisa-web-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-shadow: none; }
