@@ -204,6 +204,9 @@ ul.social-footer {
   #home span.subtitle {
     font-size: 0.7rem !important;
   }
+  .home .heading:after {
+    display: none;
+  }
 }
 
 // Resume
