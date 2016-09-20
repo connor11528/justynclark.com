@@ -20,6 +20,45 @@ p {
   text-rendering: optimizeLegibility;
 }
 
+// CONTACT
+
+.wpcf7-submit {
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 0;
+    padding: 0.85em 1em;
+    margin: 0 0 1rem 0;
+    font-size: 0.9rem;
+    background-color: #8a8a8a;
+    color: #fefefe;
+}
+
+.wpcf7-submit:hover {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.85em 1em;
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  background-color: #777;
+  color: #fefefe;
+}
+
+
+
+
 
 @media only screen and (max-width: 480px) {
   #content #inner-content {
