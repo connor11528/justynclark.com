@@ -4254,7 +4254,8 @@ to display none.
     display: none; } }
 
 body {
-  background-image: url("../images/noise.png"); }
+  background-image: url("../images/noise.png");
+  height: auto; }
 
 #content #inner-content {
   padding-top: 5rem; }
@@ -4760,7 +4761,8 @@ video#bgvid {
 #nav-wrapper {
   position: fixed;
   width: 100%;
-  z-index: 1000; }
+  z-index: 1000;
+  top: 0; }
 
 #nav {
   background: transparent;
