@@ -85,6 +85,8 @@ get_header(); ?>
             agile tools to maintain and develop websites for various Regent portfolio websites. I subscribed to modern
             workflows that include AWS, Vagrant, WordPress and Magento 2.1 development environments and
             frameworks using task automation via grunt with Sass and Less preprocessors.</p>
+          <p>Additionally I implemented various site improvements which resulted in overall revenue increase, reduced
+            bounce rate, increased page views, increased search depth, and increased volume of site searches. </p>
           <b>Companies in the portfolio:</b>
           <ul>
             <li>Lillian Vernon</li>
@@ -144,7 +146,8 @@ get_header(); ?>
       </div>
       <div class="small-12 large-9 columns">
         <div class="position">
-          <h4>CAL STATE NORTHRIDGE<span class="subtitle">B.A. - Multimedia Production & Cinema and Television Arts Major- 2008</span></h4>
+            <h4>CAL STATE NORTHRIDGE<span class="subtitle">B.A. - Multimedia Production & Cinema Arts Major- 2008</span>
+            </h4>
           <p>Immersed in the broad studies of digital media trends and technologies in new media, television and film.</p>
         </div>
         <div class="position">
