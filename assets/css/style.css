@@ -4548,6 +4548,8 @@ video#bgvid {
 
 .website-example {
   margin-bottom: 60px !important; }
+  .website-example h3 {
+    font-size: 1.5875rem; }
 
 .website-example img {
   border: 0.1em solid rgba(0, 0, 0, 0.13);

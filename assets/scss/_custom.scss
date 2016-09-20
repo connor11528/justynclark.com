@@ -387,7 +387,10 @@ video#bgvid {
 // PORTFOLIO WEBSITES
 
 .website-example {
-  margin-bottom: 60px!important
+  margin-bottom: 60px!important;
+  h3 {
+    font-size: 1.5875rem;
+  }
 }
 
 .website-example img {
