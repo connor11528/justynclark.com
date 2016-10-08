@@ -280,6 +280,12 @@ ul.social-footer {
   margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 360px) {
+  .home-title {
+    font-size: 3.2rem;
+  }
+}
+
 @media only screen and (max-width: 640px) {
   .resume {
     padding-top: 0;
