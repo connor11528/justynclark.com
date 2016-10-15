@@ -2482,7 +2482,9 @@ video#bgvid {
 .website-example {
   margin-bottom: 60px !important; }
   .website-example h3 {
-    font-size: 1.5875rem; }
+      font-size: 1.5875rem;
+      font-weight: 400;
+  }
 
 .website-example img {
   border: 0.1em solid rgba(0, 0, 0, 0.13);
@@ -2686,7 +2688,13 @@ video#bgvid {
 @media only screen and (max-width: 640px) {
   .blog-content {
     padding-left: 0.625rem;
-    padding-right: 0.625rem; } }
+      padding-right: 0.625rem;
+  }
+
+    .marTop {
+        margin-top: 1.3rem;
+    }
+}
 
 @media only screen and (max-width: 1023px) {
   .cover-story {
