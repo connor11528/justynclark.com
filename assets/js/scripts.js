@@ -1,4 +1,4 @@
-jQuery(document).foundation();
+//jQuery(document).foundation();
 /**
  * Created by justynclark on 9/3/16.
  */
