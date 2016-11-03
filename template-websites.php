@@ -14,6 +14,29 @@ Template Name: WEBSITES
 
 			    <section class="light-bg">
 
+
+				    <article class="website-example row wide">
+					    <div class="medium-6 medium-push-6 columns">
+						    <div class="row">
+							    <div class="small-4 columns">
+								    <img class="alignnone" src="/wp-content/themes/justynclark/assets/images/SAP-Mobile-Thumb.png" alt="Social Action Partners"/>
+							    </div>
+							    <div class="small-8 columns websites">
+								    <img class="alignnone" src="/wp-content/themes/justynclark/assets/images/SAP-Desktop-Thumb.png" alt="Social Action Partners"/>
+							    </div>
+						    </div>
+					    </div>
+
+					    <div class="medium-6 medium-pull-6 columns">
+						    <h3 class="marTop">Social Action Partners</h3>
+						    <p>Social Action Partners (SoACT) works with nonprofits in communities of need to assure accessible high quality technical assistance that is culturally responsive and facilitates increased revenue into our communities. </p>
+						    <p>This extremely light-weight and completely customized scratch made WordPress site is built to scale with selectable Foundation 6 framework CSS styles, UI components and custom JavaScript all processed and complied with advanced task automation.</p>
+						    <p><a id="sldbt-blk-2" class="secondary small button" href="http://www.socialactionpartners.org/" target="_blank">Take a Closer Look »</a></p>
+					    </div>
+				    </article>
+
+				    <hr />
+
 				    <article class="website-example row wide">
 					    <div class="medium-6 medium-push-6 columns">
 							<div class="row">
