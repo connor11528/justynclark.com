@@ -59,7 +59,7 @@ gulp.task('site-js', function() {
 gulp.task('foundation-js', function() {
   return gulp.src([	
   		  
-  		  // Foundation core - needed if you want to use any of the components below
+  	  // Foundation core - needed if you want to use any of the components below
       //'./vendor/foundation-sites/js/foundation.core.js',
       //'./vendor/foundation-sites/js/foundation.util.*.js',
       //
@@ -117,7 +117,8 @@ gulp.task('browsersync', function() {
 	    // Replace with URL of your local site
         proxy: "http://local.wordpress.dev",
     });
-    
+
+    gulp.watch('./assets/js/components/*.js').on('change', browserSync.reload);
     gulp.watch('./assets/scss/**/*.scss', ['styles']);
     gulp.watch('./assets/js/scripts/*.js', ['site-js']).on('change', browserSync.reload);
 
@@ -125,6 +126,9 @@ gulp.task('browsersync', function() {
 
 // Watch files for changes (without Browser-Sync)
 gulp.task('watch', function() {
+
+  // Watch react component files
+  gulp.watch('./assets/js/components/*.js')
 
   // Watch .scss files
   gulp.watch('./assets/scss/**/*.scss', ['styles']);
@@ -135,9 +139,9 @@ gulp.task('watch', function() {
   // Watch foundation-js files
   gulp.watch('./vendor/foundation-sites/js/*.js', ['foundation-js']);
 
-}); 
+});
 
 // Run styles, site-js and foundation-js
 gulp.task('default', function() {
-  gulp.start('styles', 'site-js', 'foundation-js');
+    gulp.start('styles', 'site-js', 'foundation-js');
 });
