@@ -1,0 +1,1 @@
+System.import('assets/js/components/index.js');

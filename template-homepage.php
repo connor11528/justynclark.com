@@ -10,14 +10,8 @@ Template Name: HOMEPAGE
 
     <div id="inner-content" class="row">
 
-        <main id="main" class="large-12 medium-12 columns" role="main">
+        <main id="home-main" class="large-12 medium-12 columns" role="main">
             <!-- Begin Content -->
-
-                    <h1 class="heading" id="home">
-                        <div class="home-title">Justyn Clark</div>
-                        <span class="subtitle">FRONT-END DEVELOPER BY DAY <br>UX DESIGNER BY NIGHT</span>
-                        <span class="subtitle">PERFECTING THE WEB ONE PIXEL AT A TIME</span>
-                    </h1>
 
         </main> <!-- end #main -->
 
