@@ -31,14 +31,14 @@ get_header(); ?>
             <div class="small-12 large-5 columns alpha">
               <h4>Professional Skillsets</h4>
                 <ul>
-                  <li>W3C Validated HTML5, CSS3</li>
-                  <li>JavaScript, jQuery </li>
-                  <li>Sass, Less Preprocessors</li>
-                  <li>Foundation 6, Bootstrap 4</li>
-                  <li>PHP, WordPress Theme Development</li>
-                  <li>Ajax, JSON</li>
-                  <li>UI, UX</li>
-                  <li>AWS</li>
+                   <li>JavaScript ES6 + Babel</li>
+                   <li>HTML5 & CSS3</li>
+                   <li>Ajax, JSON</li>
+                   <li>SCSS, Less, PostCSS</li>
+                   <li>Foundation 6 & Bootstrap 4</li>
+                   <li>React UI Component Composition</li>
+                   <li>PHP, WordPress Theme Development</li>
+                   <li>CRUD, GraphQL, NoSQL</li>
                 </ul>
             </div>
           <div class="small-12 large-4 columns working-knowledge">
@@ -63,11 +63,11 @@ get_header(); ?>
           <div class="small-12 large-3 columns omega">
               <h4>FRAMEWORKS & LIBRARIES</h4>
                 <ul>
-                  <li>Angular</li>
-                  <li>React</li>
-                  <li>Meteor</li>
-                  <li>Vue</li>
-                  <li>Backbone</li>
+                   <li>React</li>
+                   <li>Angular</li>
+                   <li>Vue</li>
+                   <li>Meteor</li>
+                   <li>Express + Node.js</li>
                 </ul>
           </div>
         </div>
@@ -80,22 +80,36 @@ get_header(); ?>
       <div class="small-12 large-9 columns border">
         <div class="position">
           <h4>REGENT EQUITY COMPANIES, LLC <span class="subtitle">FRONT END DEVELOPER | 2016</span></h4>
-          <p>Regent Companies is a global investment firm focused on acquiring and managing businesses across multiple industries and international markets.</p>
-          <p>Collaborated with project, marketing, SEO managers and designers using JIRA, Confluence, BitBucket
-            agile tools to maintain and develop websites for various Regent portfolio websites. I subscribed to modern
-            workflows that include AWS, Vagrant, WordPress and Magento 2.1 development environments and
-            frameworks using task automation via grunt with Sass and Less preprocessors.</p>
-          <p>Additionally I implemented various site improvements which resulted in overall revenue increase, reduced
-            bounce rate, increased page views, increased search depth, and increased volume of site searches. </p>
-          <b>Companies in the portfolio:</b>
-          <ul>
-            <li>Lillian Vernon</li>
-            <li>Current Catalog</li>
-            <li>HistoryNet</li>
-            <li>Nextag</li>
-            <li>Fine Stationery</li>
-            <li>pingg</li>
-          </ul>
+            <p>
+                Regent Companies is a global investment firm focused on acquiring and managing businesses across multiple
+                industries and international markets targeting businesses that exhibit the potential for significant change and growth
+                through building long-term value by working closely with management, marketing, and development teams to
+                determine and negotiate optimal capital structure and implementation of strategy and development solutions for
+                each investment company.
+            </p>
+            <p>
+                • Implemented various new analysis-driven website UI/UX enhancements, features and product development
+                for HistoryNet.com - which receives over 2 million unique visitors a month. Deployment of improved Site
+                Search resulted in substantial increases in the volume of searches, depth of search after the initial search,
+                decline in exits and reduced bounce rate. Overall engagement increased by 195%, and time on site by 383%.
+                Deployment of new monetization solutions to highest converting top page accounted for a 158% revenue
+                increase overnight and affected web ad revenue increases of 108% in one month.
+            </p>
+            <p>
+                • Assisted in launching and maintaining a new e-commerce platform for converting digital readers into
+                subscribers that increased monthly sales 305%, and tuning a subsequent 52% CR increase.
+            </p>
+            <p>
+                • Developed, coded and implemented front-end UI designs and functionality using modern workflows and
+                development environments with task automation, compilers and preprocessors for multiple Current Media
+                Group ecommerce websites including various 3rd party JavaScript libraries and components. Assisted in CMS
+                platform migration and upgrade in collaboration with a team of backend developers, project, marketing, SEO
+                managers and designers.
+            </p>
+            <p>
+                • Responsible for debugging and troubleshooting various site/server issues, submitting tickets and reporting
+                bugs using JIRA, Confluence agile system tools.
+            </p>
 
         </div>
         <div class="position">
